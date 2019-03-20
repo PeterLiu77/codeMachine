@@ -22,8 +22,8 @@ public class DbConn {
 	//定义连接数据库的url资源
 	private String url = "jdbc:oracle:thin:@127.0.0.1:1521:orcl";
 	//定义连接数据库的用户名和密码
-	private String userName = "heima28";
-	private String passWord = "heima28";
+	private String userName = "root";
+	private String passWord = "1234";
 	*/
 	//加载数据库连接驱动
 	public Connection getConnection(){
